@@ -162,7 +162,6 @@ export default function getClientes() {
   console.log("----getClientes Ok!");
   return async function (dispatch) {
     try {
-      // var json = await axios.get(`http://localhost:4000/pokemons`, {});
       var json = await axios.get(`http://127.0.0.1:8000/api/clientes`, {});
 
       return dispatch({
