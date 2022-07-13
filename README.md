@@ -28,7 +28,7 @@ El proyecto se realiza en laravel, por el momento es el inicio para completar sk
 
 Tendrán un `boilerplate` con la estructura general tanto del servidor (laravel) como de cliente(react.js)
 
-**IMPORTANTE:** se requiere que tenga intalado xammp, una ver lo tenga ejecute en la base de datos se debe de cambiar por:
+**IMPORTANTE:** se requiere que tenga intalado xammp, una vez lo tenga, ejecute en las configuraciones `.env` la base de datos, que para nuestro caso se debe de cambiar por:
 
 ```
 DB_CONNECTION=mysql
@@ -50,7 +50,7 @@ La idea general es crear una aplicación en la cual se puedan hacer peticiones h
 
 [link de back](https://github.com/kenpulicorre/laravel_CRUD)
 
-[link de back "carpeta completa, con nombre sistema:"](https://drive.google.com/file/d/10OwsXcWMQ-07UNlIcFAzXtgZIHSzDnOC/view?usp=sharing)
+[link de back "carpeta completa, con nombre sistema:"](https://drive.google.com/drive/folders/1DnI0RC0zNKCv6sMBlSPHUu_UDBU-5Zj0?usp=sharing)
 
 para ejecutar el archivo back, solo debe de dirijirse a la carpeta ` donde se descargo la aplicacion back` y dijitar
 
