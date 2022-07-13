@@ -40,15 +40,44 @@ DB_PASSWORD=
 ```
 
 donde **sitema ** es el nombre de la base de datos que se crea en **_phpMyadmin_**
+**IMPORTANTE2:** debe de tener preente que para ejecutar la aplicacion en front, debe tener ejecutandose primeramente el servidor con la base de datos, para que se logren guardar los datos.
 
 ## Documentacion postman
 
 La idea general es crear una aplicación en la cual se puedan hacer peticiones http, por lo mismo se utiliza postman para ello: [postman](https://documenter.getpostman.com/view/19592464/UzQpx83a)
 
+## Archivo back:
+
+[link de back](https://github.com/kenpulicorre/laravel_CRUD)
+
+[link de back "carpeta completa, con nombre sistema:"](https://drive.google.com/file/d/10OwsXcWMQ-07UNlIcFAzXtgZIHSzDnOC/view?usp=sharing)
+
+para ejecutar el archivo back, solo debe de dirijirse a la carpeta ` donde se descargo la aplicacion back` y dijitar
+
+```
+php artisan serve
+```
+
+si aun no tiene las tablas actualizadas puede ejecutar:
+
+```
+php artisan migrate:fresh
+```
+
+y una vez se tengan ejecutando el back puede ir al front o al postman para que inicie las pruebas.
+
 ## Archivo front:
 
 [link de front](https://github.com/kenpulicorre/laravel_front)
 
-## Archivo back:
+para ejecutar el archivo front, solo debe de dirijirse a la carpeta `cliente` y dijitar
 
-[link de back](https://github.com/kenpulicorre/laravel_CRUD)
+```
+npm install
+```
+
+y una vez se tengan instaladas las dependencias ejecutar la aplicacion,
+
+```
+npm start
+```
