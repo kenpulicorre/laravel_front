@@ -165,13 +165,12 @@ export default function getClientes() {
       // var json = await axios.get(`http://localhost:4000/pokemons`, {});
       var json = await axios.get(`http://127.0.0.1:8000/api/clientes`, {});
 
-      console.log("POKEMONES,", json);
       return dispatch({
         type: GET_CLIENTES,
         payload: json.data,
       });
     } catch (error) {
-      alert("Falla en obtencion de pokemon");
+      alert("Falla en obtencion de Clientes desde base de datos");
       console.log(error);
     }
   };
